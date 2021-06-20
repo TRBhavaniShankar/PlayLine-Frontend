@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-class Head extends Component {
+class PlayerPoints extends Component {
     state = {  }
     render() { 
         return ( <div>
-            
+            player points
         </div> );
     }
 }
  
-export default Head;
+export default PlayerPoints;

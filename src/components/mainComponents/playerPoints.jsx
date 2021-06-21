@@ -1,10 +1,45 @@
 import React, { Component } from 'react';
+import Player from './player';
+import Point from './point';
 
 class PlayerPoints extends Component {
-    state = {  }
+    state = { 
+        players: [],
+     }
+
+    componentDidMount(){
+
+        fetch('http://localhost:4433/getPlayersList')
+            .then((response) => response.json())
+            .then((responseJson) => {
+                this.setState({players : responseJson.players})
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+        
+    }
+
     render() { 
         return ( <div className="player-points">
-            player points
+            <div className="players">
+            {
+                
+                this.state.players.map( plr =>
+                    <Player 
+                        playerName={plr.last_name}
+                    />
+                )
+            }
+            </div>
+            
+            <div className="points">
+            {
+                this.state.players.map( plr =>
+                    <Point pointsVal = {plr.points}/>
+                )
+            }
+            </div>
         </div> );
     }
 }

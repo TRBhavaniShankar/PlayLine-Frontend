@@ -11,7 +11,7 @@ class Main extends Component {
         return ( <div className="main">
             <div className="container">
                 <img src={progressbar} className="progressbar" alt="progressbar"/>
-                <div className="playline-text-top">YOUR PLAYLIONE IS SET!</div>
+                <div className="playline-text-top">YOUR PLAYLINE IS SET!</div>
                 <div className="playline-text-bottom">COME BACK @7:30PM TO TRACK IT LIVE</div>
                 <hr/>
                 <div className="player-points-text">

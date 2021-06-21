@@ -170,38 +170,21 @@ hr.horizontalline-bottom{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-@media (max-width: 500px){
-  .progressbar{
-    /* height: 5vmin; */
-    width: 200px;
-  }
-
-  .container{
-    width: 400px;
-  }
-
-  
-}
-
-@media (max-width: 550px){
-  .container{
-    width: 400px;
-  }
-
-  .App-logo{
-    width: 250px;
-  }
-}
 
 .points, 
 .players {
   display: flex;
-  align-items: center;
   color: #A1A1A1;
   text-transform: uppercase;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.points{
+  width: 420px;
 }
 
 .point-val{
@@ -213,23 +196,93 @@ hr.horizontalline-bottom{
 .player-img{
   border-radius: 50%;
   border: thick solid #dad7d7;
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   margin-left: -10px;
   margin-right: -10px;
   z-index: 1;
 }
 
-
 .point{
   margin-right: 5px;
   margin-left: 5px;
+  width: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-h5.points-text{
+h5.points-text,
+h5.player-name-text{
   margin: 3px 0px 5px 0px;
 }
 
 h5.player-name-text{
-  margin: 3px 0px 5px 0px;
+  width: 60px;
+  font-size: 10px;
+}
+
+h5.points-text{
+  font-size: 11px;
+}
+
+@media (max-width: 500px){
+  .progressbar{
+    width: 225px;
+  }
+
+  .container{
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px){
+  .container{
+    width: 400px;
+  }
+
+  .App-logo{
+    width: 250px;
+  }
+
+  .player-img{
+    border-radius: 50%;
+    border: thick solid #dad7d7;
+    width: 50px;
+    height: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .points{
+    width: 315px;
+  }
+
+  .point{
+    margin-right: 2px;
+    margin-left: 2px;
+    width: 40px;
+    padding-left: 2px;
+    padding-right: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .point-val{
+    font-size: 10px;
+    padding: 3px 2px 5px 2px;
+    width: 16px;
+    height: 10px;
+  }
+
+  h5.points-text{
+    font-size: 8px;
+  }
+
+  h5.player-name-text{
+    margin: 3px 0px 5px 0px;
+    font-size: 8px;
+    width: 45px;
+    word-wrap: break-word;
+  }
 }

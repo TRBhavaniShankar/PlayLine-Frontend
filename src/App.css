@@ -167,10 +167,10 @@ hr.horizontalline-bottom{
 }
 
 .player-points{
-  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10px;
 }
 
 @media (max-width: 500px){
@@ -204,7 +204,7 @@ hr.horizontalline-bottom{
   text-transform: uppercase;
 }
 
-.points-val{
+.point-val{
   border-radius: 50%;
   padding: 5px;
   border: thick solid #dad7d7;
@@ -213,6 +213,23 @@ hr.horizontalline-bottom{
 .player-img{
   border-radius: 50%;
   border: thick solid #dad7d7;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  margin-left: -10px;
+  margin-right: -10px;
+  z-index: 1;
+}
+
+
+.point{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+h5.points-text{
+  margin: 3px 0px 5px 0px;
+}
+
+h5.player-name-text{
+  margin: 3px 0px 5px 0px;
 }

@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Point extends Component {
     state = {  }
     render() { 
-        return ( <div>
-            <div className="points-val">{this.props.pointsVal}</div>
-            <h5>PTS</h5>
+        return ( <div className="point">
+            <div className="point-val">{this.props.pointsVal}</div>
+            <h5 className="points-text">PTS</h5>
         </div> );
     }
 }

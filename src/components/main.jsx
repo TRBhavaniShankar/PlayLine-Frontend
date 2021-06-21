@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import progressbar from "../assets/icons/progress.svg";
-import googleplay from "../assets/icons/google-play@2x.png"
-import iosapp from "../assets/icons/ios-app@2x.png"
+import googleplay from "../assets/icons/google-play@3x.png"
+import iosapp from "../assets/icons/ios-app@3x.png"
 import PlayerPoints from "../components/mainComponents/playerPoints"
 import NotifymeAndDeposit from "../components/mainComponents/notifyMeAndDeposit"
 
@@ -14,7 +14,7 @@ class Main extends Component {
                 <div className="playline-text-top">YOUR PLAYLIONE IS SET!</div>
                 <div className="playline-text-bottom">COME BACK @7:30PM TO TRACK IT LIVE</div>
                 <hr/>
-                <div className="player-points">
+                <div className="player-points-text">
                     Pro Tip: You can manage your PlayLine's until they go live in the Upcoming area
                 </div>
                 <PlayerPoints />

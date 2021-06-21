@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import logo from '../assets/logo/logo@1x.png';
+import logo from '../assets/logo/logo@2x.png';
 
 class Logo extends Component {
     state = {  }
     render() { 
-        return ( <div className="">
+        return ( <div className="logo-container">
             <img src={logo} className="App-logo" alt="logo" />
         </div> );
     }

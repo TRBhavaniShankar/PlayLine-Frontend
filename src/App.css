@@ -233,7 +233,7 @@ h5.points-text{
 
 @media (max-width: 550px){
   .container{
-    width: 350px;
+    width: 340px;
   }
 
   .App-logo{
@@ -285,5 +285,10 @@ h5.points-text{
     font-size: 8px;
     width: 45px;
     word-wrap: break-word;
+  }
+
+  .player-points-text{
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }

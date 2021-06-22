@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/playline-frontend/static/css/main.ea16f631.chunk.css",
+    "main.css": "/playline-frontend/static/css/main.42195680.chunk.css",
     "main.js": "/playline-frontend/static/js/main.f84b7741.chunk.js",
     "main.js.map": "/playline-frontend/static/js/main.f84b7741.chunk.js.map",
     "runtime-main.js": "/playline-frontend/static/js/runtime-main.c77b5af3.js",
@@ -10,7 +10,7 @@
     "static/js/3.1b392ea6.chunk.js": "/playline-frontend/static/js/3.1b392ea6.chunk.js",
     "static/js/3.1b392ea6.chunk.js.map": "/playline-frontend/static/js/3.1b392ea6.chunk.js.map",
     "index.html": "/playline-frontend/index.html",
-    "static/css/main.ea16f631.chunk.css.map": "/playline-frontend/static/css/main.ea16f631.chunk.css.map",
+    "static/css/main.42195680.chunk.css.map": "/playline-frontend/static/css/main.42195680.chunk.css.map",
     "static/js/2.be04fc4a.chunk.js.LICENSE.txt": "/playline-frontend/static/js/2.be04fc4a.chunk.js.LICENSE.txt",
     "static/media/Aaron Gordon -PLP59D7092156491v2.c5a850f1.png": "/playline-frontend/static/media/Aaron Gordon -PLP59D7092156491v2.c5a850f1.png",
     "static/media/Anthony-Davis-PLP59D70938C0B3Ev2.bc9976a3.png": "/playline-frontend/static/media/Anthony-Davis-PLP59D70938C0B3Ev2.bc9976a3.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.c77b5af3.js",
     "static/js/2.be04fc4a.chunk.js",
-    "static/css/main.ea16f631.chunk.css",
+    "static/css/main.42195680.chunk.css",
     "static/js/main.f84b7741.chunk.js"
   ]
 }

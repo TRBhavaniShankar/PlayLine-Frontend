@@ -231,22 +231,22 @@ h5.points-text{
   font-size: 11px;
 }
 
-@media (max-width: 500px){
+/* @media (max-width: 500px){
   
   .container{
     width: 300px;
   }
-  
+
   .progressbar{
     width: 225px;
   }
 
   
-}
+} */
 
-@media (max-width: 550px){
+@media (max-width: 500px){
   .container{
-    width: 400px;
+    width: 350px;
   }
 
   .App-logo{
@@ -261,6 +261,10 @@ h5.points-text{
     margin-left: -8px;
     margin-right: -8px;
     background: #F5F5F5;
+  }
+
+  .progressbar{
+    width: 230px;
   }
 
   .points{

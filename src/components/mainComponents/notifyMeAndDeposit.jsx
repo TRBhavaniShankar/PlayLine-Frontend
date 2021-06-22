@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import notifyme from '../../assets/icons/notify-me@3x.png'
 
 class NotifymeAndDeposit extends Component {
     state = {  }

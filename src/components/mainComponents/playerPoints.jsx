@@ -9,6 +9,7 @@ class PlayerPoints extends Component {
 
     componentDidMount(){
 
+        // get the players list and set the state with players 
         fetch('http://localhost:4433/getPlayersList')
             .then((response) => response.json())
             .then((responseJson) => {

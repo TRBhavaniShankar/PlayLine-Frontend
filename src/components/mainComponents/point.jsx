@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class Point extends Component {
-    state = {  }
     render() { 
         return ( <div className="point">
             <div className="point-val">{this.props.pointsVal}</div>

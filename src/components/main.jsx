@@ -6,7 +6,6 @@ import PlayerPoints from "../components/mainComponents/playerPoints"
 import NotifymeAndDeposit from "../components/mainComponents/notifyMeAndDeposit"
 
 class Main extends Component {
-    state = {  }
     render() { 
         return ( <div className="main">
             <div className="container">

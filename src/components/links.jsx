@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class Links extends Component {
-    state = {  }
     render() { 
         return ( <div className="links">
             <div><a href="http://localhost:3000/">About</a></div>

@@ -231,19 +231,6 @@ h5.points-text{
   font-size: 11px;
 }
 
-/* @media (max-width: 500px){
-  
-  .container{
-    width: 300px;
-  }
-
-  .progressbar{
-    width: 225px;
-  }
-
-  
-} */
-
 @media (max-width: 550px){
   .container{
     width: 350px;
